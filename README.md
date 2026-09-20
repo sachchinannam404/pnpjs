@@ -1,8 +1,19 @@
-PnPjs is a fluent JavaScript API for consuming SharePoint and Microsoft Graph REST APIs in a type-safe way. You can use it with SharePoint Framework, Nodejs, or JavaScript projects. This an open source initiative complementing existing SDKs provided by Microsoft.
+> **Fork notice:** This repository is a personal fork of the official [pnp/pnpjs](https://github.com/pnp/pnpjs) project.
+> For production use, npm packages, issues, discussions, and pull requests, prefer the upstream repository:
+> **https://github.com/pnp/pnpjs**
+>
+> Docs site: https://pnp.github.io/pnpjs/
 
-Please use [http://aka.ms/community/home](http://aka.ms/community/home) for the latest updates around the whole *Microsoft 365 and Power Platform Community(PnP)* initiative.
+---
 
->If you are moving from v2 please review the [transition guide](https://pnp.github.io/pnpjs/transition-guide/)
+PnPjs is a fluent JavaScript API for consuming SharePoint and Microsoft Graph REST APIs in a type-safe way. You can use it with SharePoint Framework, Node.js, or JavaScript projects. This is an open-source initiative complementing existing SDKs provided by Microsoft.
+
+Please use [http://aka.ms/community/home](http://aka.ms/community/home) for the latest updates around the whole *Microsoft 365 and Power Platform Community (PnP)* initiative.
+
+> Migrating versions?
+> - **v3 → v4:** [transition guide](https://pnp.github.io/pnpjs/transition-guide/)
+> - **v2 → v3:** [v3 transition guide](https://pnp.github.io/pnpjs/v3/transition-guide/)
+> - **v1 → v2:** [v2 transition guide](https://pnp.github.io/pnpjs/v2/transition-guide/)
 
 ## Getting Started
 
@@ -10,11 +21,13 @@ Please see the [Getting Started guide](https://pnp.github.io/pnpjs/getting-start
 
 ## Documentation
 
-Please review the [documentation](https://pnp.github.io/pnpjs/) for the PnPjs libraries. This
-site is updated with each release. If cannot find what you need, please let us know by logging an [documentation request](https://github.com/pnp/pnpjs/issues).
+Please review the [documentation](https://pnp.github.io/pnpjs/) for the PnPjs libraries. That site is updated with each upstream release. If you cannot find what you need, please log a [documentation request](https://github.com/pnp/pnpjs/issues) on the **upstream** repository.
+
+Local docs source in this tree lives under [`docs/`](docs/) and is built with MkDocs (`mkdocs.yml`, `mkdocs-requirements.txt`). See [Update Documentation](https://pnp.github.io/pnpjs/contributing/documentation/).
 
 ## Authors
-This project's contributors include Microsoft and [community contributors](AUTHORS). Work is done as an open source community project.
+
+This project's contributors include Microsoft and [community contributors](AUTHORS). Work is done as an open-source community project.
 
 ## Sponsors
 
@@ -50,17 +63,18 @@ We want to thank everyone that has sponsored us once or on an ongoing basis. We 
     <img src="https://avatars0.githubusercontent.com/u/51104?v=4" alt="wobba" width="100" height="100" />
 </a>
 
-
 ## Code of Conduct
+
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ### "Sharing is Caring"
 
 ### Disclaimer
+
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ## Supportability and SLA
 
-This library is open-source and community provided library with active community providing support for it. This is not Microsoft provided module so there's no SLA or direct support for this open-source component from Microsoft. Please report any issues using the [issues list](https://github.com/pnp/pnpjs/issues).
+This library is an open-source, community-provided library with active community support. It is **not** a Microsoft product and has **no Microsoft SLA**. Please report issues on the upstream [issues list](https://github.com/pnp/pnpjs/issues).
 
 ![](https://telemetry.sharepointpnp.com/@pnp/pnpjs/readme)
